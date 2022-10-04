@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif ;
+}
+
 header {
     background:#bbbbbb;
     padding: 20px;
@@ -145,4 +149,64 @@ form label, form legend {
 .enviar:hover {
     background: darkorange;
     transform: rotate(10deg) scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+    border: 5px double #000000;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+/*A partir deste ponto começa o CSS da pagina inicial*/
+
+.banner{
+    width: 100%;
+}
+
+.tituloPrincipal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.imagemBeneficios {
+    width: 50%;
+}
+
+.mapa {
+    padding: 3em;
+}
+
+.mapa p{
+    text-align: center;
+    margin: 0 0 2em;
 }
