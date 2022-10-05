@@ -221,7 +221,7 @@ td, th {
 }
 
 .conteudoBeneficios {
-    width: 940px;
+    width: 700px;
     margin: 0 auto;
 }
 
@@ -249,6 +249,12 @@ td, th {
 
 .imagemBeneficios {
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+}
+
+.imagemBeneficios:hover {
+    opacity: 0.3;
 }
 
 .video {
