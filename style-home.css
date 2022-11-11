@@ -16,20 +16,15 @@ p {
     padding-left: 30px;
 }
 
-.tituloCentralizado {
+.tituloCentralizado{
     text-align: center;
-}
-
-
-em strong {
-    color: RED;
 }
 
 #missão {
     font-size: 20px;
 }
 
-.itens {
+.itens{
     font-style: italic;
 }
 .beneficios{
